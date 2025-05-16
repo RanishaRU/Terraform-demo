@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "EC2-deploy" {
-    source = "./modules-ec2-instance"
+    source = "./modules/ec2-instance"
     ami = var.ami_value
     instance_type = var.instance_type
 }
