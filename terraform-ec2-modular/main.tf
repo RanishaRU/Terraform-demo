@@ -8,4 +8,5 @@ module "ec2_instance" {
   ami_id        = var.ami_id
   instance_type = var.instance_type
   key-pair = var.key
+
 }
