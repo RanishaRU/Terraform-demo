@@ -7,5 +7,5 @@ module "ec2_instance" {
   instance_name = "MyEC2Instance"
   ami_id        = var.ami_id
   instance_type = var.instance_type
-  key-pair = var.key
+  key-pair = var.key 
 }
